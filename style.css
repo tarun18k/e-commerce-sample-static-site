@@ -1,0 +1,171 @@
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+}
+
+#title {
+    background-color: #ff4c68;
+
+}
+
+.container-fluid {
+    padding: 3% 15% 100px 15%;
+}
+
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+@media(max-width: 1028px) {
+    .titleimage {
+        position: static;
+        transform: rotate(0deg);
+
+    }
+}
+
+@media(max-width:700px) {
+    #title {
+        text-align: center;
+    }
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+
+}
+
+h5 {
+    font-family: "Montserrat-light", sans-serif;
+    padding: 0 18px;
+}
+
+.titleimage {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.downloadbutton {
+    margin: 0 20px 10% 20px;
+}
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+
+.feature {
+    font-size: 1.5rem;
+    font-family: "Montserrat-bold", sans-serif;
+    margin-bottom: 25px;
+}
+
+.featurefont {
+    color: #ef8172;
+    font-size: 3rem;
+
+}
+
+.featureparagraph {
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+h2 {
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+}
+
+.featurefont:hover {
+    color: #ff4c68;
+    font-size: 3rem;
+
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+.pressimage {
+
+    width: 15%;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 7% 15%;
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Black';
+    padding: 7% 15%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+
+.cta1 {
+
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #ffff;
+    padding: 3% 15%;
+    text-align: center;
+    font-size: 1rem;
+
+
+}
+
+#footerpara {
+    color: #8f8f8f;
+}
+
+.footerlinks {
+    margin: 30px 30px 30px 30px;
+    font-weight: bold;
+    color: black;
+}
